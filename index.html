@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Test Datatable</title>
+    <style type="text/css" class="init"> </style>
+
+    <link rel="shortcut icon" type="image/png" href="/media/images/favicon.png"></link>
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datatables.net/rss.xml"></link>
+    <link rel="stylesheet" type="text/css" href="/media/css/site-examples.css?_=6a23f3bca2453d0655063d05483e97a4"></link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css"></link>
+
+    
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="/media/js/site.js?_=d58481521385e8ff25e2cf33809b8be4"></script>
+    <script type="text/javascript" src="/media/js/dynamic.php?comments-page=examples%2Fdata_sources%2Fdom.html" async></script>
+    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" language="javascript" src="../resources/demo.js"></script>
+    <script type="text/javascript" class="init">     
+      $(document).ready(function() {
+	  $('#example').DataTable();
+      } );
+    </script>
+  </head>
+  
+  <body>
+    
+    <!-- text ------------------------------------------------------------------------ -->
+    <p>
+      If you are a normal user of this web site and don't know what this page is
+      about, this probably means that the site is currently unavailable due to
+      maintenance.
+      If the problem persists, please contact the site's administrator.
+    </p>
+    
+    <!-- table ------------------------------------------------------------------------ -->
+    <table id="table_id" class="display">
+      <thead>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Row 1 Data 1</td>
+          <td>Row 1 Data 2</td>
+        </tr>
+        <tr>
+          <td>Row 2 Data 1</td>
+          <td>Row 2 Data 2</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- table ------------------------------------------------------------------------ -->
+    <table id="example" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Office</th>
+          <th>Age</th>
+          <th>Start date</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tiger Nixon</td>
+          <td>System Architect</td>
+          <td>Edinburgh</td>
+          <td>61</td>
+          <td>2011/04/25</td>
+          <td>$320,800</td>
+        </tr>
+        <tr>
+          <td>Garrett Winters</td>
+          <td>Accountant</td>
+          <td>Tokyo</td>
+          <td>63</td>
+          <td>2011/07/25</td>
+          <td>$170,750</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- info ------------------------------------------------------------------------ -->
+    <script>
+    </script>
+    
+    <!-- info ------------------------------------------------------------------------ -->
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo">JavaScript can change HTML content.</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+
+    <script>
+      document.write(5 + 6);
+    </script>
+
+    <p id="demo"></p>
+
+    <script>
+      document.getElementById("demo").innerHTML = 5 + 7;
+    </script>
+    
+  </body>
+</html>
+
